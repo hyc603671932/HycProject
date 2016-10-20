@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name = 'HycProject'
- s.version = '1.0.4'
+ s.version = '1.0.5'
  s.license = 'MIT'
  s.summary = 'A Test in iOS.'
  s.homepage = 'https://github.com/hyc603671932/HycProject'
@@ -11,16 +11,16 @@ Pod::Spec.new do |s|
  s.source_files = 'Utils','ScaningView'
 
  s.subspec 'Test1' do |s1|
-    s1.source_files = 'Test1/**.{h,m,xib,png}’
+    s1.source_files = 'Test1/**.{h,m,xib,png}'
  end
 
  s.subspec 'Test2' do |s2|
-    s2.source_files = 'Test2/**/*'
+    s2.source_files = 'Test2'
     s2.exclude_files = 'Test2/Contents2.json'
  end
 
  s.subspec 'Test3' do |s3|
-    s3.source_files = 'Test3/**/*'
+    s3.source_files = 'Test3'
  end
 
  s.subspec 'Test4' do |s4|
